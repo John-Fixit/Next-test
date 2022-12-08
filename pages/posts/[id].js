@@ -3,12 +3,12 @@ import React from 'react'
 
 const MoreDetails = ({post}) => {
 
-// let router = useRouter()
-// if(router.isFallback){
-//     return <div>
-//         <h1>Loading...</h1>
-//     </div>
-// }   
+let router = useRouter()
+if(router.isFallback){
+    return <div>
+        <h1>Loading...</h1>
+    </div>
+}   
   return (
     <div className='mt-5'>
         <h1>{post.title}</h1>
@@ -34,9 +34,8 @@ export const getStaticPaths = async ()=>{
             {params: {id: '2'}},
             {params: {id: '3'}},
         ],
-        fallback: 'blocking',
-        revalidate: 10
-        // fallback: true
+        // fallback: 'blocking'
+        fallback: true
         // fallback: false
     }
 
@@ -46,7 +45,8 @@ export const getStaticProps = async(context) =>{
    let response = await fetch(`https://jsonplaceholder.typicode.com/posts/${context.params.id}`)
    let data = await response.json()
     return {
-        props: {post: data}
+        props: {post: data},
+        // revalidate: 10
     }
     
 }

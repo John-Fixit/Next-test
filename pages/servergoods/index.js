@@ -1,30 +1,35 @@
-
-function Index({goods}) {
+function Index({ posts }) {
   return (
-    <div>
-        {
-            goods.map((good)=>{
-                return (
-                    <div key={good.id}>
-                        <h1>{good.name}</h1>
-                        <p>{good.price}</p>
-                        </div>
-                )
-            })
-        }
+    <div className="row">
+      {posts.map((post) => {
+        return (
+          <div key={post.id}>
+            <div className="col-sm-4">
+              <div class="card h-100 ">
+                <div class="card-body">
+                  <h5 class="card-title">{post.title}</h5>
+                  <p class="card-text">{post.body}</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        );
+      })}
     </div>
-  )
+  );
 }
 
-export default Index
+export default Index;
 
-
-export const getServerSideProps = async()=>{
-    let response = await fetch('http://localhost:4000/')
-    let data = await response.json()
-    return {
-        props: {
-            goods: data
-        }
-    }
-}
+export const getServerSideProps = async () => {
+  let response = await fetch("https://jsonplaceholder.typicode.com/posts");
+  let data = await response.json();
+  return {
+    props: {
+      posts: data,
+    },
+  };
+};

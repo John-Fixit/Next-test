@@ -9,7 +9,6 @@ function Parameter() {
   return (
     <>
     <h1>Dear {username} welcome to your page</h1>
-    
     </>
   )
 }

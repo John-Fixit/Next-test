@@ -8,8 +8,8 @@ const Post = ({posts}) => {
             posts.map((post)=>{
                 return (
                     <div key={post.id}>
-                        <Link href={`/posts/${id}`}>
-                            <h1>{post.id} {post.title}</h1>
+                        <Link href={`/posts/${post.id}`}>
+                            <h1>{post.id}. {post.title}</h1>
                             </Link>
                             <hr/>
                     </div>
