@@ -26,3 +26,12 @@
 // }
 
 // export default ClientFetching;
+import React from 'react'
+
+function ClientFetching() {
+  return (
+    <div>index</div>
+  )
+}
+
+export default ClientFetching
