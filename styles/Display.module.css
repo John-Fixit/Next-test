@@ -1,0 +1,12 @@
+.noItem_found{
+    text-align: center;
+    padding: 1rem;
+    font-family: cursive;
+    
+}
+
+.modal_footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.2rem 2rem;
+}
