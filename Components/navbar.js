@@ -18,7 +18,7 @@ function Navbar() {
             </li>
             
             <li className="nav-item">
-              <Link className="nav-link" href="/contact" tabindex="-1" aria-disabled="true">Contact</Link>
+              <Link className="nav-link" href="/contact" tabIndex="-1" aria-disabled="true">Contact</Link>
             </li>
           </ul>
           <form className="d-flex">
