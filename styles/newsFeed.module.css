@@ -1,0 +1,10 @@
+.newsImg{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 854px) {
+        .newsImg{
+            width: 100% !important;
+            height: 50% !important;
+        }
+}

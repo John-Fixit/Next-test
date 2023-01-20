@@ -1,0 +1,181 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "imgUrl": "typicode",
+      "desc": "lorem jfcnirguenu ergki nekgliger jebo pajwlot erjkrgnherlineh .kiu ",
+      "category": "",
+      "body": "iucegkuiguerg ioveruo jew9iob;ntpio geoierdhlk;pvoig kjogerogkjerli"
+    },
+    {
+      "title": "Messi won the Wworld cup",
+      "imgUrl": "https://github.com/John-Fixit?tab=overview&from=2022-12-01&to=2022-12-31",
+      "comments": [],
+      "likes": [],
+      "desc": "Connection required before it can work",
+      "body": "This site can’t be reachedThe connection was reset.\nTry:\nChecking the connection\nChecking the proxy and the firewall",
+      "category": "sport",
+      "id": 2
+    },
+    {
+      "title": "Messi won the Wworld cup",
+      "imgUrl": "https://github.com/John-Fixit?tab=overview&from=2022-12-01&to=2022-12-31",
+      "comments": [],
+      "likes": [],
+      "desc": "Connection required before it can work",
+      "body": "This site can’t be reachedThe connection was reset.\nTry:\nChecking the connection\nChecking the proxy and the firewall",
+      "category": "sport",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "text": "some comment",
+      "postId": null,
+      "timeStamp": null
+    },
+    {
+      "text": "yes, confirmed",
+      "timeStamp": "2023-01-20T13:03:45.765Z",
+      "postId": "0",
+      "id": 2
+    },
+    {
+      "text": "yes, confirmed",
+      "timeStamp": "2023-01-20T13:05:33.198Z",
+      "postId": "0",
+      "id": 3
+    },
+    {
+      "text": "yes, confirmed",
+      "timeStamp": "2023-01-20T13:05:36.424Z",
+      "postId": "0",
+      "id": 4
+    },
+    {
+      "text": "yes, confirmed",
+      "timeStamp": "2023-01-20T13:14:24.814Z",
+      "postId": "0",
+      "id": 5
+    },
+    {
+      "text": "yes, confirmed",
+      "timeStamp": "2023-01-20T13:14:25.890Z",
+      "postId": "0",
+      "id": 6
+    },
+    {
+      "text": "yes, confirmed",
+      "timeStamp": "2023-01-20T13:14:26.586Z",
+      "postId": "0",
+      "id": 7
+    },
+    {
+      "text": "yes, confirmed",
+      "timeStamp": "2023-01-20T13:14:40.446Z",
+      "postId": "0",
+      "id": 8
+    },
+    {
+      "text": "yes, confirmed",
+      "timeStamp": "2023-01-20T13:14:41.330Z",
+      "postId": "0",
+      "id": 9
+    },
+    {
+      "text": "yes, confirmed",
+      "timeStamp": "2023-01-20T13:15:08.682Z",
+      "postId": "0",
+      "id": 10
+    },
+    {
+      "text": "yes, confirmed",
+      "timeStamp": "2023-01-20T13:15:09.574Z",
+      "postId": "0",
+      "id": 11
+    },
+    {
+      "text": "yes, confirmed",
+      "timeStamp": "2023-01-20T13:15:44.920Z",
+      "postId": "0",
+      "id": 12
+    },
+    {
+      "text": "yes, confirmed",
+      "timeStamp": "2023-01-20T13:15:45.912Z",
+      "postId": "0",
+      "id": 13
+    },
+    {
+      "text": "yes, confirmed",
+      "timeStamp": "2023-01-20T13:15:46.732Z",
+      "postId": "0",
+      "id": 14
+    },
+    {
+      "text": "yes, confirmed",
+      "timeStamp": "2023-01-20T13:17:12.366Z",
+      "postId": "0",
+      "id": 15
+    },
+    {
+      "text": "yes, confirmed",
+      "timeStamp": "2023-01-20T13:17:13.272Z",
+      "postId": "0",
+      "id": 16
+    },
+    {
+      "text": "yes, confirmed",
+      "timeStamp": "2023-01-20T13:18:05.006Z",
+      "postId": "0",
+      "id": 17
+    },
+    {
+      "text": "yes, confirmed",
+      "timeStamp": "2023-01-20T13:19:30.264Z",
+      "postId": "0",
+      "id": 18
+    },
+    {
+      "text": "yes, confirmed",
+      "timeStamp": "2023-01-20T13:23:33.623Z",
+      "postId": "0",
+      "id": 19
+    },
+    {
+      "text": "yes, confirmed",
+      "timeStamp": "2023-01-20T13:23:48.893Z",
+      "postId": "0",
+      "id": 20
+    },
+    {
+      "text": "yes, confirmed",
+      "timeStamp": "2023-01-20T13:23:49.714Z",
+      "postId": "0",
+      "id": 21
+    },
+    {
+      "text": "yes, confirmed",
+      "timeStamp": "2023-01-20T13:24:26.114Z",
+      "postId": "0",
+      "id": 22
+    },
+    {
+      "text": "yes, confirmed",
+      "timeStamp": "2023-01-20T13:24:27.999Z",
+      "postId": "0",
+      "id": 23
+    }
+  ],
+  "likes": [
+    {
+      "id": null,
+      "postId": null
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

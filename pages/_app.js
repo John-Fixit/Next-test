@@ -3,27 +3,18 @@ import "bootstrap/dist/css/bootstrap.css"
 import Navbar from '../Components/navbar'
 import Head from 'next/head'
 // import "bootstrap/dist/js/bootstrap.js"
-
+import "react-toastify/dist/ReactToastify.css";
 
 function MyApp({ Component, pageProps }) {
 
-  if(Component.getLayout){
-    return Component.getLayout(
-      <>  
-        <Component {...pageProps} />
-      </>
-    )
-  }
-  else{
   return (<>
       <Head>
-        <title>General Title</title>
+        <title>Blog Site</title>
       </Head>
-     <Navbar />
+      <Navbar />
      <Component {...pageProps} />
   </>
   )
-  }
 }
 
 export default MyApp

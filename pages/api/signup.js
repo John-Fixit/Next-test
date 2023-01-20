@@ -20,3 +20,5 @@ export default function handler(req, res){
     }
 }
 }
+//npm i json-server
+//json-server --watch db.json --port 5007
