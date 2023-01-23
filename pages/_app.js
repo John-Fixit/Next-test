@@ -5,6 +5,7 @@ import Head from 'next/head'
 // import "bootstrap/dist/js/bootstrap.js"
 import "react-toastify/dist/ReactToastify.css";
 
+
 function MyApp({ Component, pageProps }) {
 
   return (<>
